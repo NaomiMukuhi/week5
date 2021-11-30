@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  body {
+      font-family:cursive;
+      background-color: black;
+  }
+  h1 {
+      font-family: cursive;
+      font-weight: bolder;
+      font-size: xx-large;
+  }
+  .content {
+      background-color: green;
+  }
+  h2 {
+      font-weight: bold;
+  }
+ 
