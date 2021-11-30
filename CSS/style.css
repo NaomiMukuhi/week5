@@ -12,7 +12,7 @@
   }
   body {
       font-family:cursive;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.89);
   }
   h1 {
       font-family: cursive;
@@ -20,10 +20,20 @@
       font-size: xx-large;
   }
   .content {
-      background-color: green;
+      background-color: rgba(78, 241, 78, 0.644);
   }
   h2 {
       font-weight: bold;
   }
-  
+  header {
+      text-align: center;
+      color: crimson;
+      font-size: small;
+  }
+  p {
+      font-family: Papyrus;
+      font-size: medium;
+      font-weight: bold;
+  }
+
  
