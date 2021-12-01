@@ -1,0 +1,18 @@
+body {
+    background-image: black,green ;
+}
+
+
+
+.contact-us {
+   background-image: url(https://i1.wp.com/www.kenyatraveltips.com/wp-content/uploads/2018/03/hand_fist_national_flag_of_kenya.jpg);
+   height: 550px;
+   text-align: center;
+   color: green;
+   padding: 50px;
+   font-size: larger;
+}
+.footer {
+    text-align: center;
+    color: green;
+}
