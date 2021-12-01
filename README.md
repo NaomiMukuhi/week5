@@ -18,13 +18,8 @@
 
 <p>Click <a href="" target ="_blank">here</a> to view livepage.<p>
 
-## Picture of live page:
-###![livepage](latest.png)
-
-
-
 ## Challanges:
-
+### The team faced a number of merge conflicts.
 ## Credits:
 
 ### I would like to take this opportunity to thank all the collaborators who worked towards completion of this project.
