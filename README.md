@@ -19,7 +19,7 @@
 <p>Click <a href="https://naomimukuhi.github.io/week5/page1.html" target ="_blank">here</a> to view livepage.<p>
 
 ## Picture of live page:
-<![livepage](livepage picture/Screenshot(82).png)
+![livepage](livepage picture/Screenshot(82).png)
 
 
 
