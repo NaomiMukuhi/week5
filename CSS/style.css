@@ -1,8 +1,10 @@
 .container {
     position: relative;
     text-align: center;
-    color: black;
-    font-weight: bolder;
+    color: rgb(255, 94, 0);
+    font-size: large;
+    text-shadow: yellow;
+
   }
 .centered {
     position: absolute;
@@ -20,7 +22,7 @@
       font-size: xx-large;
   }
   .content {
-      background-color: rgba(78, 241, 78, 0.644);
+      background-color: rgba(15, 112, 15, 0.644);
   }
   h2 {
       font-weight: bold;
@@ -34,6 +36,11 @@
       font-family: Papyrus;
       font-size: medium;
       font-weight: bold;
+      color:black;
   }
+  footer {
+    text-align: center;
+    color: green;
+}
 
  
