@@ -18,4 +18,20 @@
 
 <p>Click <a href="" target ="_blank">here</a> to view livepage.<p> 
 
+## Picture of live page:
+
+
+
 ## Challanges:
+
+## Credits:
+
+### I would like to take this opportunity to thank all the collaborators who worked towards completion of this project. 
+ -Naomi Mukuhi<br>
+ -Derick Mokonge<br>
+ -Briana Odhiambo<br>
+ -Yasiri Abdurahman<br>
+ -Vincent Mwiti
+ 
+
+
