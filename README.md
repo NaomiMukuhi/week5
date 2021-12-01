@@ -19,7 +19,11 @@
 <p>Click <a href="" target ="_blank">here</a> to view livepage.<p>
 
 ## Picture of live page:
+<<<<<<< HEAD
 <![livepage](latest.png)
+=======
+![livepage](livepage picture/Screenshot(82).png)
+>>>>>>> 447876fee9ab5d8b4b06d370ab094450f2d829f1
 
 
 
