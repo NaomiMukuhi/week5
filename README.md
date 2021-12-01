@@ -16,7 +16,7 @@
 <h2>Installation</h2>
 <p>The application does not need any installation. However it may require one to provide their personal details when contactin us i.e their email address or phone numbers.<p>
 
-<p>Click <a href="" target ="_blank">here</a> to view livepage.<p>
+<p>Click <a href="https://naomimukuhi.github.io/week5/page1.html" target ="_blank">here</a> to view livepage.<p>
 
 ## Challanges:
 
