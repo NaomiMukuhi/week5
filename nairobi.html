@@ -1,93 +1,106 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/nairobi.css">
     <title>i-Counties</title>
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="JS/script.js">
 </head>
 <body>
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-     <a href="page1.html">HOME PAGE.</a>
-     <fieldset>
-                  <div class="container">
-                 <img src="images/city_hall.jpg" alt="hall" style="width: 100%;">
-                <div class="centered"><mark><h1>Welcome to Nairobi County</h1><p><blockquote>The City Under the Sun</blockquote> is the phrase associated to<br>
-                 Nairobi County. This county is very unique since its the heartbeat of the country and the region at large.</p></mark>
-            </div> 
+  <header>
+      <a href="page1.html">HOMEPAGE</a>
+  </header> 
+     <div id="welcome">
+        <h1>Welcome to Nairobi County</h1>
+        <p><q>The City Under the Sun</q> is the phrase associated to<br>
+         Nairobi County. This county is very unique since its the heartbeat of the <br>
+         country and the region at large.</p>
+        
+         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/nairobiDay.jpg" class="d-block w-100" alt="Nairobi day image" id="one">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/nairobiNight.jpg" class="d-block w-100" alt="Nairobi Night" id="one">
+            </div>
+            <div class="carousel-item">
+              <img src="./images/masks.jpg" class="d-block w-100" alt="Mask making image" id="one">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-                <hr>
+       
 
-                <div class="content">
-                    <h1>It acts as a development center</h1>
-                    <img src="images/Nairobi-Expressway.jpg" alt="Nairobi-Expressway" style="width: 50%;">
-                    <p>due to it's rapid growth over the past few years, it isnt a surprise that this county acts as a developement
-                        center due to the rapid increase of business and or even including the new buisness idea start ups.
-                    </p>
-                </div>
-                <hr>
+        
+        <div class="intro">
+            <div class="one">
+                <h4>It acts as a development center</h4>
+                <p>Due to it's rapid growth over the past few years, it isnt a surprise that this county acts as a developement center due to the 
+                   rapid increase of business and or even including the new buisness idea start ups.</p>
+                <img src="./images/Nairobi-Expressway.jpg" alt="Nairobi-Expressway" id="two">
+                
+                <h2>Fun facts about Nairobi</h2>
+                <p>Nairobi is Kenya’s capital city.<br>
+                   In addition to its urban core, <br>
+                   the city has Nairobi National Park, <br>
+                   a large game reserve known for breeding <br>
+                   endangered black rhinos and home to giraffes,<br> 
+                   zebras and lions.<br>               
+        
+                    Elevation: 1,795 m<br>
+                    Area: 696 km²<br>
+                    Population: 4.397 million (2019)<br>
+                    Area code: 020</p>  
+            </div>
+            
+            <div class="two">
+                <h4>It acts as a business center</h4>
+                <p>Nairobi county has a lot businesses in it and most of their main headquaters tend and or are located with the county which 
+                   is provides employment and work to the people living there.</p>
+                <img src="./images/business.jpg" alt="NSE image" id="two">
 
-                <div class="content">
-                    <p>It acts as a business center</p>
-                    <img src="images/business.jpg" alt="NSE image" style="width: 50%;">
-                    <p>Nairobi county has a lot businesses in it and most of their main headquaters tend and or are located with the county which
-                        is provides employment and work to the people living there. 
-                    </p>
-                </div>
-                <hr>
+                <p>Nairobi is on the global watchlist of top five fast <br>
+                    modernising cities that are attracting new <br>
+                    global business on growing realisation that big <br>
+                    companies cannot operate from one sub-Saharan <br>
+                    location in South Africa.</p>
+            </div>
+            
+            <div class="three">
+                <h4>It acts as a tourist destination</h4>
+                <p>it is also a tourist hub and hotspot, they are many sites one can visit and visit during 
+                    stay there. These sites have serene environment and are just next to essential 
+                    social amenities like airports, train e.t.c</p>
+                <img src="./images/Nairobi-tourist.jpg" alt="Nairobi national park image" id="two">
 
-                <div class="content">
-                    <button onclick="alert('did you know, Nairobi is the eleventh most populated city in AFRICA!\n And ranks number 82 on most populous cities in the world!')">FUN FACT HERE!</button>
-                    <p>It acts as a tourist destination</p>
-                    <img src="images/Nairobi-tourist.jpg" alt="Nairobi national park image" style="width: 50%;">
-                    <p>it is also a tourist hub and hotspot, they are many sites one can and visit during their stay there.
-                        some of the include the below mentioned;
-
-                        <li>Nairobi National Park-located on the outskirts of the skycrappers of nairobi city, it is a haven for wilflife and one can go
-                            on their walking trails and or bond with the orphaned animals through <strong>the  David Sheldrick Wildlife Trust.</strong>
-                        </li>
-                        <li>Giraffe centerenjoy a 1.5-kilometer self-guided forest walk in the adjacent nature reserve after feeding and visiting the
-                            giraffes. the center also displays information of the endangered rothchilds giraffe and one can learn about them-</li>
-                        <li>Karura forest reserve-great place to hike having a 15-kilometers multi-tiered hiking trail for hikers they will enjoy this and or a 
-                            picnic in the end if they so do wish.
-                        </li>
-                        <li>Nairobi National Muesum-the museum displays cultral and history artifacts with a display of over 900 bird types. it is also adjecent to
-                            the snake park, and currently inclusion of a marine park which kids will love to see the fish swim about.
-                        </li>
-                        <li>railway museum-favorite exhibit is the carriage used during the hunt for the Maneater of Kima in 1900. a collection of other different 
-                            types of locomotives for railway history buffs to enjoy and go through.
-                        </li>
-                    </p>
-                </div>
-
-                <div class="content">
-                   <p>at the moment, the county only has an acting governer who is also the speaker of assembly and has been in the position since december 2020
-                       The Governor at the moment is <strong>County Assembly Speaker Benson Mutura</strong>
-                   </p>
-                </div>
-
-                <div class="content">
-                    <p>places;
-                        the county though small and one of the populous in the country, has an overwhelming total of 17 parliamentary Constituencies;
-                        they include; 
-                    <li>westlands</li>	
-                    <li> Dagoretti North</li>	
-                    <li>   Dagoretti South	</li>	
-                    <li>  Langata	</li>	
-                    <li>  Kibra	</li>	
-                    <li> Roysambu</li>		
-                    <li>  Kasarani</li>	
-                    <li> Ruaraka	</li>	
-                    <li> Embakasi South</li>	
-                    <li>  Embakasi North</li>	
-                    <li>  Embakasi Central</li>		
-                    <li> Embakasi East	</li>	
-                    <li>  Embakasi West</li>	
-                    <li> Makadara	</li>	
-                    <li> Kamukunji</li>		
-                    <li> Starehe</li>	
-                    <li>  Mathare</li>	
-                    </p>
-                </div>
-</fieldset>
+                
+                 <p>Tourist places in Nairobi that are worth visiting <br>
+                     are National Museum, Railway Museum, <br>
+                     Giraffe Centre, Karen Blixen, Karura Forest, <br>
+                     David Sheldrick Trust Elephant Orphan Centre, <br>
+                     Ngong Hills, Blue Sky Tours in Diamond Plaza, <br>
+                     Nairobi Arboretum, Panari Sky Centre, <br>
+                     Bomas of Kenya, Uhuru Garden, GP Karting, <br>
+                     Village Market
+                 </p> 
+            </div>
+        </div>
+    </div>   
 </body>
 </html>
-
