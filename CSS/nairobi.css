@@ -1,0 +1,32 @@
+body {
+    width: 100vw;
+    background-color: #fbfd9073;
+}
+
+#welcome {
+    text-align: center;
+}
+#one {
+    height: 80vh;
+}
+
+#two {
+    height: 300px;
+    width: 400px;
+}
+.intro {
+    display: flex;
+    justify-content: space-around;
+}
+
+#welcome q:hover {
+    font-size: 1.6rem;
+    color: #F2BB02;  
+    font-weight: bold;  
+
+}
+
+#carouselExampleIndicators {
+    height: 80vh;
+}
+
