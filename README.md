@@ -4,7 +4,7 @@
 
 ### ICOUNTIES is a project that we came up with after noticing the gap within the tourism sector. It is an informative webpage that was designed to reduce time spent by tourists or culturalists on the internet searching for different vacation spots. Instead we came up with this webpage to bring together different counties and their attractions.
 
-### Authors:
+## Authors:
 ## <p><h4>Naomi Mukuhi, Derick Mokonge, Yasiri Abdurahman, Briana Odhiambo, Vincent Mwiti</h4></p>
 
 # USAGE: <p>
@@ -18,12 +18,9 @@
 
 <p>Click <a href="https://naomimukuhi.github.io/week5/page1.html" target ="_blank">here</a> to view livepage.<p>
 
-## Picture of live page:
-
-
-
 ## Challanges:
-### The team faced a lot of merging conflicts.
+
+### The team faced a number of merge conflicts.
 ## Credits:
 
 ### I would like to take this opportunity to thank all the collaborators who worked towards completion of this project.
